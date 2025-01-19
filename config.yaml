@@ -1,0 +1,35 @@
+
+dataset: MIMIC3 # "MIMIC4"
+dev: False
+refresh_cache: False
+mimiciii_path: 'your dataset path'
+mimiciv_path: 'your dataset path'
+device: 'cuda:0'
+model: imdr
+seed: 42
+missing_rates: [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]
+batch_size: 256
+embedding_dim: 256
+lr: 0.0005
+diffusion_lr: 0.001
+
+epochs: 50
+dcp_epochs: 200
+diffusion_epochs: 150
+fine_tuning_epochs: 30
+
+FourSdrug:
+  "beta": 0.07396914664479252
+  "gamma": 0.0011930347234594717
+  "delta": 0.000001
+  "lr": 0.005
+
+IMDR:
+  "alpha": 0.5
+  "beta": 0.5
+  "gamma": 0.01
+  "epsilon": 0.5
+  "rho": 1.0
+  "delta": 0.1
+
+
