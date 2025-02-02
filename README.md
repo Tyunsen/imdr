@@ -1,5 +1,5 @@
 # IMDR
-This is the code implementation of the "IMDR: Incomplete Multi-View Drug Recommendation"
+This is the code implementation of the "Incomplete Multi-View Drug Recommendation via Multi-Level Representation Learning and Curriculum Learning"
 
 ![IMDR Framework](./figs/overall%20.jpg)
 
@@ -29,16 +29,8 @@ Use the following command to run the IMDR model:
 ```python run.py```
 
 
-The results of the experiment can be printed out in the terminal.
+The results of the experiment will be printed out in the terminal.
 
-```
-jaccard_samples: 0.4948
-pr_auc_samples: 0.7592
-f1_samples: 0.6403
-roc_auc_samples: 0.9394
-ddi_score: 0.0563
-avg_med: 23.3417
-```
 
 ## Citation
 TODO
