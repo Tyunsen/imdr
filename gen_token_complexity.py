@@ -17,8 +17,8 @@ import pickle
 
 def init_openai_client():
     return OpenAI(
-        base_url="https://api.gptsapi.net/v1",
-        api_key="sk-F5R38b3c9e36ab6bf5eb20ec23872ae97723b42b33dj4Skv"
+        base_url="xxx",
+        api_key="sk-xxx"
     )
 
 def get_complexity_score(term, code_type, inner_map, client):
