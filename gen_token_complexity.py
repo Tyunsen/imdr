@@ -70,7 +70,7 @@ def get_complexity_score(term, code_type, inner_map, client):
             10: Complex, high-risk procedure"""
 
         response = client.chat.completions.create(
-            model="gpt-4o-mini",  # Using the most capable model
+            model="gpt-4o",  # Using the most capable model
             messages=[{"role": "user", "content": prompt}],
             temperature=0.1
         )
